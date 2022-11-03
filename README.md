@@ -20,16 +20,18 @@ To jest moje rozwiązanie zadania rekrutacyjnego, które otrzymałem od pewnej f
 
 ### Linki
 
-- URL podglądu strony: 
+- URL podglądu strony: [Formularz rekrutacyjny](https://rekrutacja.vercel.app)
 
 ## Mój proces
 
 ### Czego się nauczyłem
 
 - Rozłożenia elementów HTML5
-- Podstaw CSS wraz z responsywnością strony
+- Podstaw CSS
+- Tworzenia responsywnych formularzy
 - Pisania czystego kodu
 - Zasady DRY
+- Przesyłania oraz otrzymywania danych z serwera
 
 ## Autor
 
