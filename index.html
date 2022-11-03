@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Rejestracja</title>
+    <link rel="stylesheet" href="app/css/style.css" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <main>
+            <article>
+                <div>
+                    <div id="head">
+                        Napisz do nas
+                    </div>
+                    <div id="form_wrapper">
+                        <form id="form" method="post" onsubmit="readyToSend(); return false;">
+                            <div class="input_wrapper">
+                                <input type="text" name="name" id="name" placeholder="Imię i nazwisko" style="display:block" />
+                                <div class="error_msg" id="wrong_name" style="display:none">
+                                    Pole Imię i nazwisko powinno być wypełnione.
+                                </div>
+                            </div>
+                            <div class="input_wrapper">
+                                <input type="text" name="e_mail" id="e_mail" placeholder="Adres e-mail" style="display:block" />
+                                <div class="error_msg" id="wrong_e_mail" style="display:none">
+                                    Proszę wpisać adres e-mail.
+                                </div>
+                            </div>
+                            <div class="input_wrapper">
+                                <input type="text" name="phone_number" id="phone_number" placeholder="+48 Numer telefonu" style="display:block" />
+                                <div class="error_msg" id="wrong_phone_number" style="display:none">
+                                    Poprawny numer telefonu jest wymagany.
+                                </div>
+                            </div>
+                            <div class="input_wrapper">
+                                <input type="text" name="company_name" id="company_name" placeholder="Twoja nazwa firmy" style="display:block" />
+                                <div class="error_msg" id="wrong_company_name" style="display:none">
+                                    Pole Twoja nazwa firmy powinno być wypełnione.
+                                </div>
+                            </div>
+                            <div class="input_wrapper">
+                                <textarea name="message" id="message" placeholder="Twoja wiadomość *" style="display:block"></textarea>
+                                <div class="error_msg" id="wrong_message" style="display:none">
+                                    Pole Twoja wiadomość powinno zostać wypełnione.
+                                </div>
+                            </div>
+                            <div class="input_wrapper">
+                                <div class="error_msg" id="wrong_consent" style="display:none">
+                                    Wyrażenie zgody jest wymagane
+                                </div>
+                                <div class="agree">
+                                    <input type="checkbox" name='consent' id="consent" style="display:inline-block" />
+                                    <label for="consent">
+                                        Wyrażam zgodę na otrzymywanie informacji, w tym informacji handlowej przesyłanej przez podany przeze mnie adres e-mail, a także u zywanie telekomunikacyjnych użądzeń końcowych dla celu marketingu bezpośredniego NAZWA FIRMY. Wyrażenie ww. zgody jest dobrowolne. Zostałem/am tekże poinformowany/a, że udzielone przeze mnie zgody mogą być odwołane w każdym czasie.
+                                    </label>
+                                </div>
+                            </div>
+                            <div>
+                                <button type="submit" style="display:block">
+                                    Wyślij wiadomość
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
+    <script type="text/javascript" src="./app/js/main.js"></script>
+</body>
+</html>

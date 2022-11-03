@@ -1,0 +1,27 @@
+Zadanie:
+
+Wzorując się graficznie (im ściślej, tym lepiej) na formularzu załączonym do niniejszego maila, przygotuj od zera (!) nowy formularz, spełniający następujące założenia:
+
+1. Formularz zawiera pole z numerem telefonu, pole e-mail, pole wiadomości i guzik do przesłania wiadomości (do backendu)
+
+2. Wszystko, co dzieje się wokół ramki formularza, nie ma znaczenia - można umieścić ramkę formularza na środku strony, na czarnym tle
+
+3. Frontend waliduje poprawność danych, tj. format numeru telefonu i adresu e-mail
+
+4. Można wpisać dowolny, poprawny numer telefonu z jakimkolwiek, istniejącym prefiksem międzynarodowym
+
+5. Można wpisać dowolny, poprawny adres e-mail
+
+6. Można wpisać wiadomość tekstową (minimum 1 znak, maximum 1000)
+
+7. Formularz wyświetla błędy walidacji realizowanej po stronie frontendu
+
+8. Formularz musi być responsywny
+
+9. W przypadku braku błędów walidacji, poprawny request wysyłany jest na endpoint.
+
+10. Po odebraniu pozytywnej odpowiedzi z endpointu, zmieniamy napis "Napisz do nas" na "Dziękujemy" - i ukrywamy pozostałe elementy formularza.
+
+11. Po odebraniu negatywnej odpowiedzi z endpointu, zmieniamy napis "Napisz do nas" na "Błąd serwera - i również ukrywamy pozostałe elementy formularza.
+
+12. Formularz jest autoryzowany przez nagłówek 'x-api-key' o wartości '1IWkt23gdi3rByid3xSa'
