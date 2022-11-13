@@ -16,7 +16,7 @@ To jest moje rozwiązanie zadania rekrutacyjnego, które otrzymałem od pewnej f
 
 ### Screenshot
 
-![Podgląd ukończonej strony](./screenshots/finished-project.JPG)
+![Podgląd ukończonej strony](./images/finished-project.JPG)
 
 ### Linki
 
